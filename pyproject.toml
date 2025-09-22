@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Efficiency_Prediction"
+version = "0.1"
+authors = [
+    { name= "Aman" }
+]
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "flask",
+    "joblib",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
