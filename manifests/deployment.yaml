@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: efficiency-prediction-app
-          image: 
+          image: ay2728850/gitops-project:latest
           ports:
           - containerPort: 5000
